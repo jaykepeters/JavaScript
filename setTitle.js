@@ -1,3 +1,7 @@
+getCurrentPage();
+getPageTitleFromHeading();
+setDocumentTitle();
+
 function getCurrentPage() {
     var sPath = window.location.pathname;
     var sPage = sPath.substring(sPath.lastIndexOf('/') + 1);
@@ -30,5 +34,3 @@ function setDocumentTitle() {
         }
     }
 }
-
-setDocumentTitle();
